@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Hello Javascript World</title>
+<style>
+body{
+background-color: chartreuse;
+color: blueviolet
+}
+</style>
+</head>
+<body>
+
+<script>
+//Comentario de uma linha
+/***
+Comentario de multiplas linhas
+O comando abaixo só é visto no console
+** do navegador
+***/
+console.log("Alo Mundo Javascript");
+// Abre uma janela e exibe o conteudo!
+alert("Saudades do Sublime!");
+function perguntaDoLuis(){document.querySelector("h1").textContent = "js é massa";
+}
+window.onload = function(){
+
+//Elemento html em uma variavel javascript
+var h1 = document.querySelector("h1");
+h1.innerHTML = "<em>JS</em> não é Java!";
+h1.style = "font-size: 50px; color: deepSkyBlue;";//Saudades
+//variavel moderna local
+let h1_2 = document.querySelector(".segundoH1");
+let h1_3 = document.querySelector("#terceiroH1");
+
+h1_2.style = "fonte-size: 10;"
+h1_3.style = "text-shadow: 3px 3px 5px black";
+let h_uns = document.querySelectorAll("h1");
+for(let i=0; i < h_uns.length; i++)
+h_uns[i].style = "border: 2px dashed white";
+}
+window.onload = perguntaDoLuis;
+
+//js variables
+//https://www.w3schools.com/js/exercicies_js.asp
+//https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_variables1
+var carName = "volvo"
+</script>
+
+<script>
+var lampada = document.querySelector("#lampada")
+function acender(){lampada.src = "acesa.jpg"};
+function apagar(){lampada.src = "apagada.jpg"}
+</script>
+<h1>Introcução à Linguagem javascript</h1>
+<h1 class"segundoH1">Segundo H1</h1>
+<h1 class="terceiroH1">Terceiro H1</h1>
+<div style="text-align: center; background-color:white;">
+<h2>Exemplo Da Lâmpada</h2>
+<button onclick="document.querySelector('#lampada').src = 'acesa.jpg'"
+>Acender</button>
+<img src="apagada.jpg" id="lampada">
+<button onclick="document.querySelector('#lampada').src = 'apagada.jpg'">
+apagar</button>
+</div>
+
+</body>
+</html>
