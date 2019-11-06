@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<style type="text/css">
+    		p{ color: black ; }
+
+    		h1{ margin-top: 250px;
+    			margin-left: 250px ;
+    			margin-bottom: 250px;
+    			margin-right: 250px;
+
+    		}
+
+
+
+
+    	</style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Galaga</title>
+  </head>
+  <body class="bg-white text-center">
+
+
+  		<div class="bg-secundary">
+    			<h2 class="text-center bg-danger  p-5 text-monospace mb-5 ">Documento do jogo <br>Galaga</h2> 
+		<div>	
+			<div >			
+                    <h1 class="bg-danger text-monospace text-center">Movimentação</h1>
+				<div class="container mb-5 border border-danger">
+    						
+
+    							<div class="mt-2 mb-2">
+    							<h2>Movimento do Espaçonave</h2>
+
+    							<p class="text-justify mr-5 ml-5">A Movimentação da Espaçonave é feita com o evento de
+    							tecla Precionada sendo possivel movimentar a Espaçonave para teclas cima,baixo,esquerda e direita usando
+    							</div>
+
+                                <img class=" mt-2 mb-2" src="imagensHtml/espa.PNG">
+
+                                 <div class="w-100"></div>
+
+    							  <div class=" mt-2 mb-2">
+
+    							<h2>Movimentação Dos Asteroides e Raios</h2>
+
+
+    							<p class="text-justify mr-5 ml-5">Os Asteroides e Raios se Movimentam para uma direção assim que são criadas fora da tela e continuam se movimentando ate o fim da tela onde ao chegar ao fim são recriadas no outro lado da tela iniciando novamente. </p>
+    							</div>
+                                <img class=" mt-2 mb-2" src="imagensHtml/As.PNG">
+
+    						</div>
+
+    							</div>
+
+<h1 class="bg-success text-monospace text-center" >Colisão e Vidas </h1>
+    <div class="container mb-5 border border-success">
+
+
+    	<h2 class="text-center "> Colisão com Inimigos  </h2>
+
+<p class="text-center mr-5 ml-5"> A colisão com Os Asteroides e Raios acontece através da biblioteca JavaScript p5.collide.js </p>
+    <img class=" mt-2 mb-2" src="imagensHtml/Coli.PNG"> 
+ 
+
+ <div class="col-md-auto">
+ <h2 class="text-center "> Vidas e fim de Jogo</h2>
+   						</div>	
+
+
+    								
+  <div>
+    <div >
+        <p class="text-center mr-5 ml-5">Toda vez que há uma colisão  a variável "coração"  chega a zero assim levando a tela de fim de jogo</p>
+            <img class=" mt-2 mb-2" src="imagensHtml/Cora.PNG">
+
+    </div>
+							
+
+    								</div>
+
+
+
+</div>
+
+
+		</div>
+
+  <!-- cor -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
