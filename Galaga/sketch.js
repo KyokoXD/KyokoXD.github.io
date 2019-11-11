@@ -25,13 +25,7 @@ function verificaVencedor(){
 }
 
 function playerVencedor(){
-  background("DarkGreen");
-  textStyle(BOLD);
-  textAlign(CENTER);
-  fill("Chartreuse");
-  textSize(48);
-  text("Player Venceu", 200, 90);
-  image(imgPlayer, 20, 100, 150, 150);  
+  background(imgVitoria);
 }
 
 function bossVencedor(){
