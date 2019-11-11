@@ -19,7 +19,6 @@ function preload(){
   imgCoracao1 = loadImage('imagens/coracao1.png')
   imgfimdejogo = loadImage('imagens/fimdejogo.png')
   imgInicial = loadImage('imagens/inicial.jpg')
-  imgCaveira = loadImage('imagens/caveira.png')
   
   imgPedras[0] = loadImage('imagens/pedras.png');
   imgPedras[1] = loadImage('imagens/pedras1.png');
