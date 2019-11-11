@@ -10,6 +10,8 @@ let imgCoracao1;
 
 let imgCaveira;
 
+let imgVitoria;
+
 
 function preload(){
   imgEspaciu = loadImage('imagens/espaciu.jpg');
@@ -20,6 +22,7 @@ function preload(){
   imgfimdejogo = loadImage('imagens/fimdejogo.png')
   imgInicial = loadImage('imagens/inicial.jpg')
   imgCaveira = loadImage('imagens/caveira.png')
+  imgVitoria = loadImage('imagens/vitoria.jpg')
   
   imgPedras[0] = loadImage('imagens/pedras.png');
   imgPedras[1] = loadImage('imagens/pedras1.png');
