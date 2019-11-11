@@ -10,8 +10,6 @@ let imgCoracao1;
 
 let imgCaveira;
 
-let imgVitoria;
-
 
 function preload(){
   imgEspaciu = loadImage('imagens/espaciu.jpg');
